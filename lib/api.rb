@@ -13,7 +13,7 @@ require_relative './extensions'
 module MemcachedManager
   class API < Sinatra::Base
     enable :inline_templates
-    enable :sessions
+    #enable :sessions
     enable :cookies
 
     set :public_folder, 'public'
